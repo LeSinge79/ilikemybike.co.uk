@@ -65,8 +65,8 @@
         UTIL.fire(classnm);
         UTIL.fire(classnm, 'finalize');
       });
-
-      // Fire common finalize JS
+  
+      // Fire common finalize
       UTIL.fire('common', 'finalize');
     }
   };
